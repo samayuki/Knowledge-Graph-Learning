@@ -31,10 +31,10 @@ protege是一个开源的本体构建工具，可以用于构建知识图谱的�
 ### 对象属性
 对象属性的特别之处在于，这个属性的值不是字面量，而是一个实体。例如：A->的儿子是->B，其中A和B都是人的实例，"的儿子是"是一个对象属性。在我们的例子中，只涉及到2个对象属性：包含、属于，并且这两个属性互为逆关系，在右侧设置**inverse of**来定义。并且包含和属于这2个属性都是可传递的：A包含B，B包含C，则有A包含C。所以可以在中间窗口处将**transitive**勾选。
 
-![img](img/protege构建本体/4.JPG)
+![img](img/protege构建本体/4.PNG)
 
 ### 推理机
 推理机可以用来帮助我们完善本体，也可以用来检验本体是否是连贯一致的。 在Reasoner选择一个推理机（例如HermiT）,然后Reasoner->Start reasoner开启推理。在整个页面的右下角小字处可以看到推理机当前状态。也可以在Tools->Debug Ontology来测试本体的连贯一致性。
 
 ### 保存
-可以将我们构建的本体保存为各种格式，一般选RDF/XML，最后生成一个.owl文件。
+可以将我们构建的本体保存为各种格式，一般选RDF/XML，最后生成一个[sysu.owl](https://github.com/samayuki/Knowledge-Graph-Learning/tree/master/myData/protege构建本体)文件。
