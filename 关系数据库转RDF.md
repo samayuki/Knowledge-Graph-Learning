@@ -53,11 +53,11 @@
 
 ![](img/关系数据库转RDF/8.PNG)
 
-mapping规则可以参考D2RQ官方文档，修改后的ttl文件可在此处找到。
+mapping规则可以参考D2RQ官方文档，也很简单。
 
 #### 转换
 使用dump-rdf命令，将数据转换为三元组格式并存储起来（默认存储为N-Triple格式）：
 
 ![](img/关系数据库转RDF/9.PNG)
 
-成功后可以看到d2rq-0.8.1文件夹内生成了sysu_add.nt文件，使用sublime或记事本打开可以看到许多三元组（如果有中文可能无法正常显示，不过这不影响）。
+成功后可以看到d2rq-0.8.1文件夹内生成了sysu_add.nt文件，使用sublime或记事本打开可以看到许多三元组（如果有中文可能无法正常显示，不过这不影响）。修改后的.ttl文件和生成的.nt文件可以在[此处](https://github.com/samayuki/Knowledge-Graph-Learning/tree/master/myData/关系数据库转RDF)找到。
