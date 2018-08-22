@@ -78,4 +78,4 @@ public class importNTtriplr {
 </pre>
 </code>
 
-.java文件和生成的sysu_TDB数据库可以在此处找到。
+.java文件和生成的sysu_TDB数据库可以在[此处](https://github.com/samayuki/Knowledge-Graph-Learning/tree/master/myData/Jena连接本体%26数据)找到。
